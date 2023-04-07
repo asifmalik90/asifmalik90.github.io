@@ -1,0 +1,224 @@
+/* For device equal to or less than 575px */
+
+@media only screen and (max-width: 575px) {
+  #banner {
+    text-align: center;
+  }
+
+  #trusted-by {
+    margin-top: 3.5rem;
+  }
+
+  .responsive-sm {
+    margin: 0 1rem;
+  }
+
+  .company-logo {
+    margin-right: -0.75rem;
+  }
+
+  #banner .content {
+    margin-top: 5.938rem;
+  }
+
+  #features {
+    margin-top: 3.5rem;
+  }
+
+  .key-features {
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  #features .features-content {
+    margin-top: 3rem;
+  }
+
+  .center-text {
+    display: inline-block;
+  }
+
+  .icon {
+    margin: 0 auto;
+  }
+
+  #features .features-2 {
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  #features .advanced {
+    margin-top: 2.25rem;
+    text-align: center;
+  }
+  #features .feature-3 {
+    margin-top: 4rem;
+    text-align: center;
+  }
+  #features .ultimate-features .smart-phone {
+    position: relative;
+    width: 18rem;
+    right: 0;
+}
+    #features .ultimate-features button{
+      display: inline-block;
+      margin: 0 auto;
+    }
+
+    #features .ultimate-features .smart-phone img:last-child {
+      z-index: 1;
+      top: -0.5rem;
+      left: 0rem;
+  }
+}
+
+/* For device equal to or less than 767px */
+
+@media only screen and (max-width: 767px) {
+  #banner .content {
+    margin-top: 5.375rem;
+  }
+
+  .key-features {
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  #features {
+    margin-top: 3.5rem;
+    padding: 1.25rem 0;
+  }
+
+  .center-text {
+    display: flex;
+    justify-content: center;
+  }
+  #features .features-2 {
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  .icon {
+    margin: 0 auto;
+  }
+
+  #features .advanced {
+    margin-top: 4.25rem;
+    text-align: center;
+  }
+
+  #features .feature-3 {
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  #features .content-img {
+    width: 31rem;
+    max-width: 100%;
+  }
+
+  #features .ultimate-features button {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  #features .ultimate-features .smart-phone img {
+    position: absolute;
+    margin-top: 9rem;
+}
+
+#features .ultimate-features .smart-phone {
+  position: relative;
+  width: 24rem;
+  right: 8rem;
+}
+  
+#features .ultimate-features .smart-phone img:last-child {
+  z-index: 1;
+  top: -0.5rem;
+  left: 23rem;
+}
+
+}
+
+/* For device equal to or less than 991px */
+
+@media only screen and (max-width: 991px) {
+  .key-features {
+    text-align: center;
+  }
+
+  .icon {
+    margin: 0 auto;
+  }
+
+  #features .features-content .content-description {
+    margin: 0 auto;
+  }
+
+  .font-size-resp {
+    font-size: 1rem !important;
+  }
+
+  #features .advanced {
+    margin-top: 6.25rem;
+    text-align: center;
+  }
+
+  #features .ultimate-features .smart-phone {
+    position: relative;
+    width: 18rem;
+    right: 6rem;
+}
+
+#features .ultimate-features .smart-phone img {
+  position: absolute;
+  margin-top: 10rem;
+  right: -4rem;
+}
+
+#features .ultimate-features button{
+  display: inline-block;
+  margin: 0 9rem;
+}
+}
+
+/* For device equal to or less than 1199px */
+
+@media only screen and (max-width: 1199px) {
+  #features {
+    margin-top: 5.5rem;
+    padding: 1.25rem 0;
+    text-align: center;
+  }
+  #features .features-content {
+    margin-top: 3rem;
+  }
+
+  .icon {
+    margin: 0 auto;
+  }
+
+  #features .features-content .content-description {
+    margin-left: 3rem;
+  }
+
+  .img-center {
+    margin: auto 0;
+    padding-top: 1rem;
+  }
+
+  #features .ultimate-features .smart-phone {
+    position: relative;
+    width: 24rem;
+    right: 4rem;
+}
+
+  #features .ultimate-features .smart-phone img {
+    position: absolute;
+    margin-top: 4rem;
+    right: 0rem;
+}
+
+}
+
